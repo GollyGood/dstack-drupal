@@ -1,2 +1,2 @@
 # dstack-drupal
-Prototypical basic drupal configuration with drush support used to validate drupal integration points
+Prototypical Drupal configuration with drush support used to validate drupal integration points for dStack
