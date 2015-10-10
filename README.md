@@ -13,7 +13,7 @@ Prototypical basic Drupal configuration with drush support example.
 
 2. Get a copy of [dStack](http://dstack.gollygood.software) and place it inside
 the same directory as the dstack-drupal7 repo. Please follow the [Getting started](https://github.com/GollyGood/dstack/blob/develop/documentation/getting-started.md)
-guide. dStack will be configured in the next step so no need to read over configuration
+guide, but don't run it just yet. dStack will be configured in the next step so no need to read over configuration
 to get this working.
 
     **example:**
@@ -25,6 +25,5 @@ to get this working.
     ```
 
 3. Copy the example-dstack.yml to config.dstack.yml in the dstack directory.
-4. Run Vagrant up in the dstack directory.
-5. Once it is complete -- assuming you have drush already installed on your system
-run `drush @example.local uli` to log into your new Drupal development site.
+4. Now run `vagrant up` in the dstack directory.
+5. Once it is complete run `drush @example.local uli` to log into your new Drupal development site.
