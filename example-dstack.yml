@@ -1,0 +1,22 @@
+vagrant:
+  hostname: example
+vlamp:
+  sites:
+    <full-domain>:
+      host_docroot: ../dstack-drupal/docroot
+      guest_docroot: /home/vagrant/docroot
+      ssl_certificate: /home/vagrant/assets/ssl/<full-domain>.cert
+      ssl_certificate_key: /home/vagrant/assets/ssl/<full-domain>.key
+  databases:
+    - <full-domain>
+utils:
+  scripts:
+    post-install:
+      - docroot/sites/all/dstack/install.sh
+chef:
+  recipes:
+    - avahi
+    - default-web
+    - drupal
+    - utils::dev-tools
+    - utils::scripts
