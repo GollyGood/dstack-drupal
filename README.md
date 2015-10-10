@@ -16,13 +16,13 @@ the same directory as the dstack-drupal7 repo. Please follow the [Getting starte
 guide. dStack will be configured in the next step so no need to read over configuration
 to get this working.
 
-**example:**
+    **example:**
 
-```
-- my-project
-| - dstack-drupal7
-| - dstack
-```
+    ```
+    - my-project
+    | - dstack-drupal7
+    | - dstack
+    ```
 
 3. Copy the example-dstack.yml to config.dstack.yml in the dstack directory.
 4. Run Vagrant up in the dstack directory.
