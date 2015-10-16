@@ -13,5 +13,5 @@ $db_password = $dstackAdapter->config->mysql->server_root_password;
 // Change working directory to local docroot so drush can detect
 $drupal_docroot = $dstackAdapter->config->{'default-web'}->sites->{'example.local'}->guest_docroot;
 if (chdir($drupal_docroot)) {
-  $dstackAdapter->execute("drush -l example.local si minimal --db-url='mysqli://{$db_user}:{$db_password}@localhost/{$databases[0]}'  --sites-subdir=example.local -y");
+  $dstackAdapter->execute("php -d sendmail_path=/bin/true /usr/local/bin/drush.php -l example.local si minimal --db-url='mysqli://{$db_user}:{$db_password}@localhost/{$databases[0]}'  --sites-subdir='example.local' --site-name='dStack Drupal7 Example' -y");
 }

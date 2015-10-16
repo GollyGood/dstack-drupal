@@ -4,7 +4,7 @@ Prototypical basic Drupal configuration with drush support example.
 
 ## Requirements
 
-* dStack - CaneSyrup
+* dStack - CaneSyrup (1.x)
 * drush - 7.x or dev
 
 ## Setup

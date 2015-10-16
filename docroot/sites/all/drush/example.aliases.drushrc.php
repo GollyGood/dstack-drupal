@@ -4,7 +4,7 @@ $aliases['local'] = array(
   'root' => '/home/vagrant/docroot',
   'remote-host' => 'example.local',
   'path-aliases' => array(
-    '%drush-script' => '/usr/bin/drush',
+    '%drush-script' => '/usr/local/bin/drush',
     '%dump-dir' => '/tmp',
   ),
   'remote-user' => 'vagrant',
