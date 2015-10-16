@@ -26,4 +26,4 @@ to get this working.
 
 3. Copy the example-dstack.yml to config.dstack.yml in the dstack directory.
 4. Now run `vagrant up` in the dstack directory.
-5. Once it is complete run `drush @example.local uli` to log into your new Drupal development site.
+5. Once it is complete run `drush @example.local uli` in the dstack-drupal7/docroot directory to log into your new Drupal development site.
